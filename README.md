@@ -1,47 +1,47 @@
-# Fisheye - Portfolios de photographes professionnels
+# Fisheye - Professional Photographer Portfolios
 
 ## Description
 
-Fisheye est une plateforme web moderne qui présente les portfolios de photographes professionnels. L'application permet aux utilisateurs de découvrir des artistes talentueux et de trouver le photographe idéal pour leurs projets.
+Fisheye is a modern web platform that showcases professional photographer portfolios. The application allows users to discover talented artists and find the ideal photographer for their projects.
 
-## Fonctionnalités
+## Features
 
-- **Page d'accueil** : Affichage de tous les photographes disponibles
-- **Pages photographes** : Galeries individuelles avec médias (photos/vidéos)
-- **Interface moderne** : Design responsive et accessible
-- **Navigation intuitive** : Parcours utilisateur fluide
+- **Homepage** : Display of all available photographers
+- **Photographer pages** : Individual galleries with media (photos/videos)
+- **Modern interface** : Responsive and accessible design
+- **Intuitive navigation** : Smooth user experience
 
-## Structure du projet
+## Project Structure
 
 ```
 fisheye-frontend/
-├── assets/           # Images, icônes et ressources
-├── css/             # Styles CSS
-├── data/            # Données JSON des photographes
-├── scripts/         # Code JavaScript
-│   ├── api/         # Gestion des API
-│   ├── factories/   # Factories pour créer les objets
-│   ├── models/      # Modèles de données
-│   ├── templates/   # Templates pour l'affichage
-│   └── utils/       # Utilitaires
-├── index.html       # Page d'accueil
-└── photographer.html # Page photographe
+├── assets/           # Images, icons and resources
+├── css/             # CSS styles
+├── data/            # Photographer JSON data
+├── scripts/         # JavaScript code
+│   ├── api/         # API management
+│   ├── factories/   # Factories to create objects
+│   ├── models/      # Data models
+│   ├── templates/   # Display templates
+│   └── utils/       # Utilities
+├── index.html       # Homepage
+└── photographer.html # Photographer page
 ```
 
-## Installation et utilisation
+## Installation and Usage
 
-1. **Cloner le projet** (si applicable)
-2. **Ouvrir le fichier** `index.html` dans votre navigateur
-3. **Naviguer** sur le site pour découvrir les photographes
+1. **Clone the project** (if applicable)
+2. **Open the file** `index.html` in your browser
+3. **Navigate** on the site to discover photographers
 
-## Technologies utilisées
+## Technologies Used
 
-- **HTML5** : Structure sémantique
-- **CSS3** : Styles et mise en page responsive
-- **JavaScript ES6+** : Logique métier et interactions
-- **WebP** : Format d'image optimisé
+- **HTML5** : Semantic structure
+- **CSS3** : Responsive styles and layout
+- **JavaScript ES6+** : Business logic and interactions
+- **WebP** : Optimized image format
 
-## Compatibilité
+## Compatibility
 
 - ✅ Chrome
 - ✅ Firefox
@@ -50,8 +50,8 @@ fisheye-frontend/
 
 ## Architecture
 
-L'application suit une architecture modulaire :
-- **API** : Gestion des données via fetch
-- **Factories** : Création d'objets photographes et médias
-- **Templates** : Génération du HTML dynamique
-- **Utils** : Fonctionnalités utilitaires (lightbox, formulaires)
+The application follows a modular architecture:
+- **API** : Data management via fetch
+- **Factories** : Creation of photographer and media objects
+- **Templates** : Dynamic HTML generation
+- **Utils** : Utility features (lightbox, forms)
